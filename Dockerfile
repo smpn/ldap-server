@@ -5,6 +5,8 @@ MAINTAINER yonecle
 
 RUN yum -y install openldap-servers ; yum clean all
 
+# This is test A2
+
 ADD config.cpio /tmp/
 RUN cd /tmp ; cpio --quiet -i -F config.cpio
 
