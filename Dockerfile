@@ -16,5 +16,7 @@ EXPOSE 389
 
 LABEL Vendor="smpn.jp" License=GPLv2
 LABEL Version=1.0
+LABEL Architecture="amd64
+LABEL RUN="docker run -d -p 80:80 --name NAME IMAGE""
 
 ENTRYPOINT ["/usr/sbin/slapd","-h","ldap:///","ldapi:///","-u","ldap","-d","1"]
