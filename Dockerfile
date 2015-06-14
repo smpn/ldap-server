@@ -5,8 +5,6 @@ MAINTAINER yonecle
 
 RUN yum -y install openldap-servers ; yum clean all
 
-# This is test A2
-
 # this is test a1
 # kopksdop
 # kpsodfkplp[sd
