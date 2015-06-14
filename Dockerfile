@@ -9,6 +9,8 @@ RUN yum -y install openldap-servers ; yum clean all
 # kopksdop
 # kpsodfkplp[sd
 
+# this is test a3
+
 ADD config.cpio /tmp/
 RUN cd /tmp ; cpio --quiet -i -F config.cpio
 
